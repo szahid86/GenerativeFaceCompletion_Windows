@@ -7,7 +7,7 @@ This repository contains the modified version of windows-Caffe. One can clone th
 
 You need to follow some weird steps:
 
-1- Download and install the dependencies mentioned on original [windows-Caffe](https://github.com/BVLC/caffe/tree/windows) repo. I am writing those steps here for convinience.
+1- Download and install the dependencies mentioned on original [windows-Caffe](https://github.com/BVLC/caffe/tree/windows) repo. I am writing those steps here for convenience.
 
 ### Requirements
 
@@ -24,4 +24,12 @@ You need to follow some weird steps:
 
  We assume that `cmake.exe` and `python.exe` are on your `PATH`.
  
- 
+### Configuring Caffe
+
+If git is installed on your windows system then you can use execute the following command to clone the original windows-Caffe repo:
+```cmd
+C:\> git clone https://github.com/BVLC/caffe.git
+C:\> cd caffe
+C:\caffe> git checkout windows
+```
+
