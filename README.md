@@ -1,4 +1,4 @@
-# Windows Caffe
+# GenerativeFaceCompletion_Windows Caffe
 
 **This is an experimental, community based branch led by Guillaume Dumont (@willyd). It is a work-in-progress.**
 
